@@ -1,0 +1,18 @@
+[project]
+name = "dash-python-app"
+version = "0.1.0"
+description = "Minimal Dash app scaffold managed with uv"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Your Name" }
+]
+dependencies = [
+  "dash>=2.16",
+  "pandas>=2.0",
+  "dash-cytoscape>=0.3.0",
+]
+
+[tool.uv]
+# Use a local virtual environment in .venv
+default-groups = []
